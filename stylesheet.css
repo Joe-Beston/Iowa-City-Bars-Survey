@@ -1,0 +1,114 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  input[type="text"], input[type="email"], input[type="number"], select, textarea {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  input[type="checkbox"], input[type="radio"] {
+    display: inline-block;
+    margin-right: 0.5rem;
+  }
+  
+  button, input[type="submit"] {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover, input[type="submit"]:hover {
+    background-color: #555;
+  }
+  
+  /* Page-specific styles */
+  
+  /* Index page */
+  #index {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  #index h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  #index img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+  }
+  
+  /* Survey pages */
+  form {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  form h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  form img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+  }
+  
+  form fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  form legend {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  form label {
+    font-weight: bold;
+  }
+  
+  form input[type="checkbox"] + label, form input[type="radio"] + label {
+    font-weight: normal;
+  }
+  
+  form .help {
+    font-size: 0.8rem;
+    color: #999;
+    margin-top: 0.5rem;
+  }
+  
+  form input[type="submit"] {
+    margin-top: 1rem;
+  }
+  
